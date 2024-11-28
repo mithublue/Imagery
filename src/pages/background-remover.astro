@@ -1,0 +1,17 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import ImageUploader from '../components/ImageUploader.vue';
+---
+
+<MainLayout title="Background Remover">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold mb-8 text-center text-primary">
+      Background Remover
+    </h1>
+
+    <div class="bg-surface p-6 rounded-lg shadow-lg">
+      <ImageUploader client:load />
+    </div>
+  </div>
+</MainLayout>
+

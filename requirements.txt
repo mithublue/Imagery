@@ -1,0 +1,4 @@
+rembg==2.0.25
+Pillow==9.0.1
+scikit-image==0.19.3
+numpy==1.23.5
